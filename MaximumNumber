@@ -1,0 +1,21 @@
+public class MaximumNumber {
+
+	public static void main(String[] args) {
+
+		int a=10, b=20, c=25,max;
+		max = (a>b)?(a>c?a:c):(b>c?b:c);
+		System.out.println("Maximum number among " +a+ ", " +b+ " and " +c+ " is "  + max);
+
+	}
+
+}
+
+
+OUTPUT:
+
+Maximum number among 10, 20 and 25 is 25
+
+DESCRIPTION:
+
+The ternary operator checks if a > b. If true, it then compares a with c, otherwise, it compares b with c.
+The maximum value is assigned to the variable max, which is then printed.
